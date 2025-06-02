@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mcich\\Desktop\\E_Commerce_API\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
+      "projectUniqueName": "C:\\Users\\mcich\\Desktop\\E_Commerce_API\\ECommerceAPI\\ECommerceAPI.csproj",
       "projectName": "ECommerceAPI",
-      "projectPath": "C:\\Users\\mcich\\Desktop\\E_Commerce_API\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
+      "projectPath": "C:\\Users\\mcich\\Desktop\\E_Commerce_API\\ECommerceAPI\\ECommerceAPI.csproj",
       "packagesPath": "C:\\Users\\mcich\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mcich\\Desktop\\E_Commerce_API\\ECommerceAPI\\ECommerceAPI\\obj\\",
+      "outputPath": "C:\\Users\\mcich\\Desktop\\E_Commerce_API\\ECommerceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
