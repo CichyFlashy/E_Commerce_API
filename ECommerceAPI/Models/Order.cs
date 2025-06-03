@@ -4,7 +4,7 @@
     {
         public int ID { get; set; }
         public DateTime OrderDate { get; set; }
-        public ICollection<OrderDetail> OrderDetails { get; set; }
+        public ICollection<OrderDetails> OrderDetails { get; set; }
 
     }
 
