@@ -27,6 +27,14 @@ namespace ECommerceAPI.Data
                 .HasOne(od => od.Product)
                 .WithMany(p => p.OrderDetails)
                 .HasForeignKey(od => od.ProductID);
+
+            modelBuilder.Entity<OrderDetails>()
+                .Property(od => od.OrderPrice)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Product>()
+                .Property(p => p.price)
+                .HasPrecision(18, 2);
         }
     }
 }
