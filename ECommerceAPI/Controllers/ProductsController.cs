@@ -27,7 +27,7 @@ namespace ECommerceAPI.Controllers
         [HttpGet("name/{name}")]
         public async Task<ActionResult<Product>> GetProductByName(string name)
         {
-            var product = await _context.Products.FirstOrDefaultAsync(p => p.name == name);
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.Name == name);
             if (product == null) return NotFound();
             return product;
         }

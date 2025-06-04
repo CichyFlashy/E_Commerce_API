@@ -47,7 +47,7 @@ namespace ECommerceAPI.Controllers
                 var product = await _context.Products.FindAsync(detail.ProductID);
                 if (product == null) return BadRequest("Nieprawidłowy ProductID");
 
-                detail.OrderPrice = detail.Quantity * product.price;
+                detail.OrderPrice = detail.Quantity * product.Price;
             }
 
             _context.Orders.Add(order);
@@ -69,7 +69,7 @@ namespace ECommerceAPI.Controllers
                 var product = await _context.Products.FindAsync(detail.ProductID);
                 if (product == null) return BadRequest("Nieprawidłowy ProductID");
 
-                detail.OrderPrice = detail.Quantity * product.price;
+                detail.OrderPrice = detail.Quantity * product.Price;
             }
 
             try

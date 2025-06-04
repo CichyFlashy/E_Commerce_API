@@ -11,29 +11,29 @@ namespace ECommerceAPI.Data
 
         public DbSet<Order> Orders => Set<Order>();
         public DbSet<Product> Products => Set<Product>();
-        public DbSet<OrderDetails> OrderDetails => Set<OrderDetails>();
+        public DbSet<OrderDetail> OrderDetails => Set<OrderDetail>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<OrderDetails>()
+            modelBuilder.Entity<OrderDetail>()
                 .HasKey(od => new { od.OrderID, od.ProductID });
 
-            modelBuilder.Entity<OrderDetails>()
+            modelBuilder.Entity<OrderDetail>()
                 .HasOne(od => od.Order)
                 .WithMany(o => o.OrderDetails)
                 .HasForeignKey(od => od.OrderID);
 
-            modelBuilder.Entity<OrderDetails>()
+            modelBuilder.Entity<OrderDetail>()
                 .HasOne(od => od.Product)
                 .WithMany(p => p.OrderDetails)
                 .HasForeignKey(od => od.ProductID);
 
-            modelBuilder.Entity<OrderDetails>()
+            modelBuilder.Entity<OrderDetail>()
                 .Property(od => od.OrderPrice)
                 .HasPrecision(18, 2);
 
             modelBuilder.Entity<Product>()
-                .Property(p => p.price)
+                .Property(p => p.Price)
                 .HasPrecision(18, 2);
         }
     }

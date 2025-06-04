@@ -170,4 +170,3 @@ C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net8.0\refint\EComm
 C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net8.0\ECommerceAPI.pdb
 C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net8.0\ECommerceAPI.genruntimeconfig.cache
 C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net8.0\ref\ECommerceAPI.dll
-C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
