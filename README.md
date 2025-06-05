@@ -65,3 +65,18 @@ on:
 dotnet ef migrations add SomeMigrationName
 dotnet ef database update
 ```
+## Jak się połączyć z wdrożoną aplikacją
+
+**Adres API**:  
+e-commerce-gbd7byc5ererf8ak.polandcentral-01.azurewebsites.net
+
+
+## Wykorzystane usługi Azure
+
+Projekt korzysta z następujących usług Azure:
+
+- **Azure App Service** – do hostowania aplikacji webowej
+- **Azure SQL Database** – jako główna relacyjna baza danych
+- **Azure Managed Identity** – do bezpiecznego uwierzytelniania aplikacji bez haseł
+- **Azure CLI** – do zarządzania zasobami i uprawnieniami
+- **Azure Data Studio** – do zarządzania bazą danych
