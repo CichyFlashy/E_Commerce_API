@@ -160,7 +160,6 @@ C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net9.0\staticwebass
 C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ECommerceAPI.props
 C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ECommerceAPI.props
 C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net9.0\ECommerc.83EB260D.Up2Date
 C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net9.0\ECommerceAPI.dll
 C:\Users\mcich\Desktop\E_Commerce_API\ECommerceAPI\obj\Debug\net9.0\refint\ECommerceAPI.dll
